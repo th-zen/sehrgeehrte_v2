@@ -1,0 +1,318 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f9f4ef;
+}
+
+a {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  color: black;
+  text-decoration: none;
+  opacity: 0.2;
+}
+
+p {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+/* ----------------------Logo---------------------------- */
+
+.title_container {
+  position: fixed;
+  width: 100vw;
+  margin: 100px 0;
+  text-align: center;
+}
+
+.title_container img{
+  width: 200px;
+}
+
+/* ----------------------Center Line---------------------------- */
+
+#centerline_container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+#centerline {
+  display:block;
+  background-color: #000;
+  height: 100px;
+  border: none;
+  width: 100px;
+  transition: width 0.5s, height 0.5s ease;
+}
+
+/* ----------------------Chapter Container---------------------------- */
+
+#chapter_container {
+  height: 100vh; 
+  scroll-snap-type: y mandatory;
+  overflow: scroll;
+  position: relative;
+  text-align: center;
+}
+
+#chapter_container hr {
+  background-color: black;
+  height: 1px;
+  border: none;
+  margin: 0px;
+  width: 40px;
+  margin: auto;
+  opacity: 0.2;
+}
+
+.chapter {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  margin: 40vh 0px;
+}
+
+/* ---------------------- Default Chapter ---------------------------- */
+
+#default_chapter {
+  height: 30vh;
+}
+
+#default_chapter_media {
+  position: fixed;
+  width: 100vw;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  text-align: center;
+}
+
+#highlightreel {
+  position: relative;
+  width: 70vw;
+  top: 23vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#default_chapter_media img {
+  position: relative;
+  width: 100px;
+  top: 32vh;
+}
+
+.buffer_container {
+  height: 30vh;
+}
+
+/* ----------------------Title 1 Media + About Text---------------------------- */
+
+#title1_media {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  position: fixed;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+#title1_media_front {
+  font-size: 30px;
+  opacity: 0;
+  position: fixed;
+  top: 54%;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+  margin: 0 700px;
+  padding: 0px;
+  pointer-events: none;
+}
+
+#team {
+  position: absolute;
+  top: 2vh;
+  left: 35vw;
+  height: 30vh;
+  display: none;
+}
+
+#team_ft {
+  position: absolute;
+  top: 68vh;
+  left: 2vw;
+  width: 28vw;
+}
+
+#team_ts {
+  position: absolute;
+  top: 142vh;
+  left: 2vw;
+  width: 28vw;
+}
+
+#team_nb {
+  position: absolute;
+  top: -6vh;
+  left: 2vw;
+  width: 28vw;
+}
+
+#team_bh {
+  position: absolute;
+  top: -6vh;
+  left: 70vw;
+  width: 28vw;
+}
+
+#team_pv {
+  position: absolute;
+  top: 68vh;
+  left: 70vw;
+  width: 28vw;
+}
+
+#team_sl {
+  position: absolute;
+  top: 142vh;
+  left: 70vw;
+  width: 28vw;
+}
+
+/* ----------------------Title 2 Media---------------------------- */
+
+#title2_media {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+#title2_video1{
+  position: fixed;
+  width: 70vw;
+  top: 20vh;
+  left: 4vw;
+}
+
+#title2_video2{
+  position: fixed;
+  width: 35vw;
+  top: 6vh;
+  left: 60vw;
+}
+
+/* ----------------------Title 3 Media---------------------------- */
+
+#title3_media {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+#title3_media video:first-child{
+  position: fixed;
+  width: 10vw;
+  top: 3vh;
+  left: 18vw;
+}
+
+#title3_media video:nth-child(2){
+  position: fixed;
+  width: 10vw;
+  top: 4vh;
+  left: 72vw;
+}
+
+#title3_media video:nth-child(3){
+  position: fixed;
+  width: 10vw;
+  top: 66vh;
+  left: 18vw;
+}
+
+#title3_media video:nth-child(4){
+  position: fixed;
+  width: 10vw;
+  top: 66vh;
+  left: 72vw;
+}
+
+#title3_media video:nth-child(5){
+  position: fixed;
+  width: 10vw;
+  top: 66vh;
+  left: 45vw;
+}
+
+/* ----------------------Title 4 Media---------------------------- */
+
+#title4_media {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+#title4_video1 {
+  position: fixed;
+  width: 25vw;
+  top: 20vh;
+  left: 3vw;
+}
+
+#title4_video2 {
+  position: fixed;
+  width: 25vw;
+  top: 3vh;
+  left: 72vw;
+}
+
+/* ----------------------Title 5 Media---------------------------- */
+
+#title5_media {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  top: 75vh;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+#title5_media a {
+  opacity: 1;
+  font-size: 60px;
+}
+
+#title5_media a:hover {
+  text-decoration: underline;
+}

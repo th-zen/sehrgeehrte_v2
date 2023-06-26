@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: #f9f4ef;
+}
+
+a {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title_container {
+    position: fixed;
+    top: 5%;
+    left: 3%;
+  }
+
+.title_container img{
+    width: 200px;
+}
+
+/* ----------------------Project Landing---------------------------- */
+
+.project_landing {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: 15vh auto;
+    align-items: baseline;
+}
+
+.project_landing .portrait_video {
+  width: 25vw;
+  margin: 0 auto;
+}
+  
+.project_landing a {
+    opacity: 1;
+    font-size: 150px;
+    font-weight: 800;
+}
+
+.project_landing p {
+  width: 100%;
+}
+
+.project_landing .project_subtitle{
+    position: relative;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: auto;
+    top: -50px;
+}
+  
+.project_landing video {
+    width: 100%;
+}
+
+.project_pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project_pictures img {
+    width: 49%;
+    margin-top: 2vh;
+}
+
+/* ----------------------Team Fotos---------------------------- */
+
+#team {
+    position: absolute;
+    top: 55vh;
+    left: 60vw;
+    width: 40vw;
+  }
+  
+  #team_ft {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 20vw;
+    opacity: 1;
+  }
+  
+  #team_ts {
+    position: absolute;
+    top: 2vh;
+    left: 31vw;
+    width: 20vw;
+  }
+  
+  #team_nb {
+    position: absolute;
+    top: 1vh;
+    left: 55vw;
+    width: 20vw;
+  }
+  
+  #team_bh {
+    position: absolute;
+    top: 55vh;
+    left: 0vw;
+    width: 20vw;
+  }
+  
+  #team_pv {
+    position: absolute;
+    top: -10vh;
+    left: 78vw;
+    width: 20vw;
+  }
+  
+  #team_sl {
+    position: absolute;
+    top: 60vh;
+    left: 35vw;
+    width: 20vw;
+  }
+
+  .teampic:hover {
+    opacity: 0.6;
+  }
