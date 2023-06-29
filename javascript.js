@@ -50,13 +50,11 @@ chapter_container.addEventListener('scroll', function() {
 const title2 = document.getElementById('title2');
 const title2_media = document.getElementById('title2_media');
 const title2_video1 = document.getElementById("title2_video1");
-const title2_video2 = document.getElementById("title2_video2");
 
 chapter_container.addEventListener('scroll', function() {
   const title2Rect = title2.getBoundingClientRect();
   if (hr_middle >= title2Rect.top && hr_middle <= title2Rect.bottom) {
     title2_video1.play();
-    title2_video2.play();
     title2.style.opacity = '1';
     //title2.style.color = '#ffffff';
     title2_media.style.opacity = '1';
@@ -64,7 +62,6 @@ chapter_container.addEventListener('scroll', function() {
     hr.style.height = (title2Rect.height + 50) + "px";
   } else {
     title2_video1.pause();
-    title2_video2.pause();
     title2.style.color = '#000000';
     title2.style.opacity = '0.2';
     title2_media.style.opacity = '0';
