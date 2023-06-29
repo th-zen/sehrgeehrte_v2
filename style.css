@@ -30,6 +30,10 @@ img:hover {
   opacity: 0.5;
 }
 
+.blacktext {
+  color:#000;
+}
+
 /* ----------------------Logo---------------------------- */
 
 .title_container {
@@ -214,16 +218,105 @@ img:hover {
 
 #title2_video1{
   position: fixed;
-  width: 70vw;
-  top: 20vh;
-  left: 4vw;
+  width: 32vw;
+  top: 9vh;
+  left: 63vw;
 }
 
-#title2_video2{
+/* Baum01 */
+#title2_media img:nth-child(2){
   position: fixed;
-  width: 35vw;
-  top: 6vh;
+  height: 10vw;
+  bottom: 10vh;
+  left: 10vw;
+}
+
+/* Baum02 */
+#title2_media img:nth-child(3){
+  position: fixed;
+  height: 10vw;
+  bottom: 10vh;
+  left: 50vw;
+}
+
+/* Baum03 */
+#title2_media img:nth-child(4){
+  position: fixed;
+  height: 10vw;
+  bottom: 10vh;
+  left: 70vw;
+}
+
+/* Baum04 */
+#title2_media img:nth-child(5){
+  position: fixed;
+  height: 10vw;
+  bottom: 10vh;
+  left: 90vw;
+}
+
+/* EU-Map */
+#title2_media img:nth-child(6){
+  position: fixed;
+  width: 20vw;
+  top: 38vh;
+  left: 70vw;
+}
+
+/* Gebäude01 */
+#title2_media img:nth-child(7){
+  position: fixed;
+  height: 10vw;
+  bottom: 10vh;
+  left: 20vw;
+}
+
+/* Gebäude03 */
+#title2_media img:nth-child(8){
+  position: fixed;
+  height: 10vw;
+  bottom: 10vh;
+  left: 32vw;
+}
+
+/* Gebäude04 */
+#title2_media img:nth-child(9){
+  position: fixed;
+  height: 10vw;
+  bottom: 10vh;
+  left: 80vw;
+}
+
+/* Ortstafel */
+#title2_media img:nth-child(10){
+  position: fixed;
+  height: 10vw;
+  bottom: 10vh;
   left: 60vw;
+}
+
+/* Wolke01 */
+#title2_media img:nth-child(11){ 
+  position: fixed;
+  width: 10vw;
+  top: 10vh;
+  left: 10vw;
+}
+
+/* Wolke02 */
+#title2_media img:nth-child(12){
+  position: fixed;
+  width: 10vw;
+  top: 10vh;
+  left: 30vw;
+}
+
+/* Wolke03 */
+#title2_media img:nth-child(13){
+  position: fixed;
+  width: 10vw;
+  top: 15vh;
+  left: 20vw;
 }
 
 /* ----------------------Title 3 Media---------------------------- */
