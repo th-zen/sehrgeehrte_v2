@@ -163,7 +163,7 @@ img:hover {
 
 #team_ft {
   position: absolute;
-  top: 68vh;
+  top: -6vh;
   left: 2vw;
   width: 28vw;
 }
@@ -177,7 +177,7 @@ img:hover {
 
 #team_nb {
   position: absolute;
-  top: -6vh;
+  top: 68vh;
   left: 2vw;
   width: 28vw;
 }
